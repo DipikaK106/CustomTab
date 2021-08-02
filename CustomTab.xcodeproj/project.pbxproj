@@ -13,6 +13,11 @@
 		DF14AF4C26B77084002E10F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF14AF4A26B77084002E10F7 /* Main.storyboard */; };
 		DF14AF4E26B77086002E10F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF14AF4D26B77086002E10F7 /* Assets.xcassets */; };
 		DF14AF5126B77086002E10F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF14AF4F26B77086002E10F7 /* LaunchScreen.storyboard */; };
+		DF14AF5B26B771FE002E10F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14AF5A26B771FE002E10F7 /* HomeViewController.swift */; };
+		DF14AF5D26B77211002E10F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14AF5C26B77211002E10F7 /* ProfileViewController.swift */; };
+		DF14AF5F26B77222002E10F7 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14AF5E26B77222002E10F7 /* OtherViewController.swift */; };
+		DF14AF6126B77453002E10F7 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14AF6026B77453002E10F7 /* TabbarController.swift */; };
+		DF14AF6326B77715002E10F7 /* Customtabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF14AF6226B77715002E10F7 /* Customtabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		DF14AF4D26B77086002E10F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF14AF5026B77086002E10F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF14AF5226B77086002E10F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF14AF5A26B771FE002E10F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF14AF5C26B77211002E10F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DF14AF5E26B77222002E10F7 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		DF14AF6026B77453002E10F7 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		DF14AF6226B77715002E10F7 /* Customtabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customtabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		DF14AF4326B77084002E10F7 /* CustomTab */ = {
 			isa = PBXGroup;
 			children = (
+				DF14AF5826B771E1002E10F7 /* Controllers */,
 				DF14AF4426B77084002E10F7 /* AppDelegate.swift */,
 				DF14AF4626B77084002E10F7 /* SceneDelegate.swift */,
 				DF14AF4826B77084002E10F7 /* ViewController.swift */,
@@ -63,8 +74,20 @@
 				DF14AF4D26B77086002E10F7 /* Assets.xcassets */,
 				DF14AF4F26B77086002E10F7 /* LaunchScreen.storyboard */,
 				DF14AF5226B77086002E10F7 /* Info.plist */,
+				DF14AF6026B77453002E10F7 /* TabbarController.swift */,
+				DF14AF6226B77715002E10F7 /* Customtabbar.swift */,
 			);
 			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		DF14AF5826B771E1002E10F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF14AF5A26B771FE002E10F7 /* HomeViewController.swift */,
+				DF14AF5C26B77211002E10F7 /* ProfileViewController.swift */,
+				DF14AF5E26B77222002E10F7 /* OtherViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF14AF4926B77084002E10F7 /* ViewController.swift in Sources */,
+				DF14AF5F26B77222002E10F7 /* OtherViewController.swift in Sources */,
 				DF14AF4526B77084002E10F7 /* AppDelegate.swift in Sources */,
+				DF14AF5D26B77211002E10F7 /* ProfileViewController.swift in Sources */,
+				DF14AF6326B77715002E10F7 /* Customtabbar.swift in Sources */,
 				DF14AF4726B77084002E10F7 /* SceneDelegate.swift in Sources */,
+				DF14AF5B26B771FE002E10F7 /* HomeViewController.swift in Sources */,
+				DF14AF6126B77453002E10F7 /* TabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
